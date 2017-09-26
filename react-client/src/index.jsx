@@ -46,7 +46,7 @@ class App extends React.Component {
   render () {
     return (<div>
       
-      <h1>House Listings</h1>
+      <h1>Real Estate Listings</h1>
       <div className="banner">
       <div className="search">
       <Search  className="searchBar" handleSearch={this.handleSearch.bind(this)}/>

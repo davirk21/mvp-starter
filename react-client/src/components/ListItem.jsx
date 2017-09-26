@@ -22,7 +22,7 @@ class ListItem extends React.Component {
 	
 		  	<div className="houseInfo">
 			    <ul id="info">
-			    	<li> { (function fix(address){
+			    	<li> Address: { (function fix(address){
 			    			var parts = address.split(" ");
 			    			 parts[0] = parseInt(parts[0]);
 			    			 return parts.join(' ')
@@ -30,7 +30,9 @@ class ListItem extends React.Component {
 
 			    		
 			    		}</li>
-			    	<li>{ this.props.item.postal}</li>
+			    		<li>Property: residential</li>
+			    		<li>Last Updated: {this.props.item.update}</li>
+			    	<li>Zip Code: { this.props.item.postal}</li>
 			    </ul>
 		    </div>
 		  </div>

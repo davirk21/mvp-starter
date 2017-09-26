@@ -18,7 +18,8 @@ db.once('open', function() {
 
 var itemSchema = mongoose.Schema({
   address: String,
-  postal: String
+  postal: String,
+  update: String
 });
 
 var Item = mongoose.model('Listing', itemSchema);
@@ -29,7 +30,8 @@ let save = (properties) => {
     properties.map(function(property){
       var newEntry = new Item ({
         address: property.address.oneLine,
-        postal: property.address.postal1
+        postal: property.address.postal1,
+        update: property.vintage.lastModified
       }).save()
           console.log('hhhhhhhhh',newEntry)
     })
