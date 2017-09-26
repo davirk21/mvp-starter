@@ -1,0 +1,77 @@
+.banner {
+	margin-left: 250px;
+	height: 300px;
+	background-image: url("http://realestate.commodityrentals.com/templates/template_37/images/big_image.jpg");
+	width: 200%;
+	background-repeat: no-repeat;
+	opacity: 0.6;
+
+}
+
+h4{
+	text-align: center;
+}
+h1{
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+
+.search {
+	margin-left:20px;
+}
+
+.selectZip {
+	font-size: 30px;
+	text-align: left;
+}
+
+.selectCity {
+	font-size: 30px;
+	text-align: left;
+}
+
+.houseImage {
+	float: left;
+
+
+}
+
+.houseInfo {
+	float: left;
+}
+
+.everything {
+	margin-left: 25%;
+	height: 140px;
+	width: 50%;
+	clear: left;
+	padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    border-top: 10px;
+    position: center;
+    box-shadow: 5px 5px 5px;
+
+
+}
+.List {
+	float: center;
+}
+
+#info {
+	list-style-type: none;
+}
+
+
+
+.List {
+	float: center;
+	text-align: left -20px;
+}
+
+
